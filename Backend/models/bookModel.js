@@ -1,4 +1,4 @@
-import mongoose, { mongo } from "mongoose"
+import mongoose from "mongoose"
 
 // No need for and ID since this will be handled automatically by MongoDB
 const bookSchema = mongoose.Schema( // We define the structure for the documents in our collection!
